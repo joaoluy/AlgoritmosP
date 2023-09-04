@@ -18,7 +18,7 @@ int main() {
             k = m + length(primeira);
         }
         for(j=0; j<k; j++){
-            for(int p=0; p<k*2; p + 2){
+            for(int p=0; p<k*2; p + 2){ // coloca o + 2 depois, pra subtituir os elementos da string resposta
                resposta[j] = primeira[p]
             }
         }
