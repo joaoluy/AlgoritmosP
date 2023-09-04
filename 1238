@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+ 
+int main() {
+    string primeira, segunda, resposta;
+    int n,i,j,k,m;
+    cin >> n;
+    
+    for(i=0; i<n ; i++){
+        getline(cin, primeira, ' ');
+        getline(cin,segunda);
+
+        if(length(primeira) > lenght(segunda)){
+           m = length(primeira) - lenght(segunda);
+           k = m + length(segunda);
+        }else{
+            m = length(segunda) - length(primeira);
+            k = m + length(primeira);
+        }
+        for(j=0; j<k; j++){
+            for(int p=0; p<k*2; p + 2){
+               resposta[j] = primeira[p]
+            }
+        }
+    }
+    return 0;
+}
